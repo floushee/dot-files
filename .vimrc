@@ -3,7 +3,8 @@ set linebreak
 set showbreak=+++
 set textwidth=100
 set showmatch
-set visualbell
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 set hlsearch
 set smartcase
 set ignorecase
