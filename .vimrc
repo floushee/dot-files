@@ -1,19 +1,19 @@
-set number
-set linebreak
-set showbreak=+++
-set textwidth=100
-set showmatch
+set nocompatible 
+filetype off
+" plugins
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'itchyny/lightline.vim'
+call vundle#end()
+filetype plugin indent on
+" disable visual bell
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
-set hlsearch
-set smartcase
-set ignorecase
-set incsearch
-set autoindent
-set shiftwidth=4
-set smartindent
-set smarttab
-set softtabstop=4
-set ruler
-set undolevels=1000
-set backspace=indent,eol,start
+" fix lightline
+set laststatus=2
+" show line numbers
+set number
+" toggle nerd tree
+nmap <C-n> :NERDTreeToggle<CR>
