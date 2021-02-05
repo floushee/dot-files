@@ -53,7 +53,7 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
 		"colorScheme": "One Half Dark",
-		"startingDirectory": "/mnt/c/panagenda",
+		"startingDirectory": "C:/panagenda",
 		"padding": "8, 8, 0, 0",
 		// C:\Users\ddeutsch\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 		"icon": "ms-appdata:///roaming/ubuntu_32px.png"
