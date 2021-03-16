@@ -28,6 +28,8 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+		"fontFace": "Ubuntu Mono",
+		"fontSize": 14,
         },
         "list":
         [
