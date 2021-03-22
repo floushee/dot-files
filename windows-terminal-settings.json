@@ -76,7 +76,7 @@
           {
             "name": "One Half Dark",
             "foreground": "#DCDFE4",
-            "background": "#202020",
+            "background": "#333333",
             "cursorColor": "#FFFFFF",
             "black": "#282C34",
             "red": "#E06C75",
