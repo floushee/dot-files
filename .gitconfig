@@ -1,12 +1,5 @@
 [user]
-	name = floushee
-	email = dominik.deutsch@gmail.com
-[core]
-	editor = code
-	autocrlf = input
-[help]
-	autocorrect = 1
-[color]
-	ui = auto
-[alias]
-	lga = log --graph --oneline --all --decorate
+	name = Dominik Deutsch
+	email = dominik.deutsch@proton.me
+[init]
+	defaultBranch = main
