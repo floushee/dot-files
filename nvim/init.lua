@@ -1,2 +1,2 @@
 require("config.lazy")
-require("custom")
+require("floushee")
