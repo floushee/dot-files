@@ -1,5 +1,5 @@
 window-padding-x = 15
 window-show-tab-bar = never
-background-blur=16
-background=#111b24
-window-decoration=server
+background-blur = 16
+background = #1f1f1f
+window-decoration = server
